@@ -5,7 +5,7 @@ from datetime import datetime
 from display import mazeHandler as mh
 
 
-maze_filename = "C:\\Users\\ernes\\Desktop\\Python PROJECTS\\MazeRunner\\maze2.txt"
+maze_filename = "C:\\Users\\ernes\\Desktop\\Python PROJECTS\\MazeRunner\\maze2.txt" #Make it relevant to your directory (no shit sherlock :))
 
 class Bot():
 
