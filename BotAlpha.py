@@ -227,7 +227,7 @@ class Bot():
             self.addMapElement()
             self.go()
             self.isExitFound()
-            time.sleep(0.1)      
+            time.sleep(0.2)      
         #self.showLogs()
         self.handler.showMaze()
         print('YEAH I FINALLY FOUND AN EXIT')
