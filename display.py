@@ -38,13 +38,3 @@ class mazeHandler():
             for col, val in enumerate(line):
                 if col == coords[0] and row == coords[1]:
                     return val
-
-"""max_filename = "C:\\Users\\ernes\\Desktop\\Python PROJECTS\\MazeRunner\\maze.txt"
-
-handler = mazeHandler(max_filename, (1, 1))
-handler.loadMaze()
-handler.showMaze()
-handler.coords = (1, 4)
-handler.showMaze()
-print('ZNAK: ')
-print(f'\'{handler.getChar((0, 0))}\'')"""
